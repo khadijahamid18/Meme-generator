@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #642B73;
+}
+
+.meme-generator {
+    text-align: center;
+    padding: 30px;
+}
+
+#btn {
+    padding: 10px;
+    border: none;
+    border-left: 4px solid rgb(75, 4, 75);
+    border-right: 4px solid rgb(75, 4, 75);
+    background-color: white;
+    cursor: pointer;
+}
+
+#btn:hover {
+    border-left: 8px solid rgb(75, 4, 75);
+    border-right: 8px solid rgb(75, 4, 75);
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
+#title {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#image {
+    height: 380px;
+    object-fit: cover;
+    padding: 10px;
+    margin: 5px;
+}
+
+#author {
+    padding: 10px;
+}
